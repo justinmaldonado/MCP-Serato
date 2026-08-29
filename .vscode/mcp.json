@@ -1,0 +1,11 @@
+{
+  "servers": {
+    "serato": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "${workspaceFolder}/dist/src/index.js"
+      ]
+    }
+  }
+}
